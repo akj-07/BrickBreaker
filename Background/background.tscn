@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://cn3il815olg61"]
+
+[ext_resource type="Texture2D" uid="uid://cn7rggrexymn7" path="res://Background/background-pixel-rain-abstract/3135763.jpg" id="1_5nc5v"]
+[ext_resource type="Script" uid="uid://dpse0ibuvvpb3" path="res://Background/game.gd" id="1_jdlmo"]
+
+[node name="Background" type="Node"]
+script = ExtResource("1_jdlmo")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1143, 683)
+texture = ExtResource("1_5nc5v")
