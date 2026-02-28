@@ -1,17 +1,23 @@
 extends Node
 
 @onready var paddle_scene = preload("res://Paddle/paddle.tscn")
+@onready var ball_scene = preload("res://Ball/ball.tscn")
 var velocity = 0 
 var paddle = 0
+var ball = 0
 
 func _ready() -> void:
 	var screen_size = get_viewport().get_visible_rect().size
 	paddle = paddle_scene.instantiate()
+	ball = ball_scene.instantiate()
 	print(screen_size)
 	add_child(paddle)
+	add_child(ball)
 	
 	paddle.position.x = screen_size.x/2
 	paddle.position.y = screen_size.y - 20
+	
+	ball.position = screen_size/2
 
 func _physics_process(delta: float) -> void:
 	var speed = 500
