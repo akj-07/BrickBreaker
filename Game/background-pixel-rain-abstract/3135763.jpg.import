@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cn7rggrexymn7"
-path="res://.godot/imported/3135763.jpg-086fc1134ad550e86c38b6a005046dcd.ctex"
+path="res://.godot/imported/3135763.jpg-d371f0f9d6a232002f09017325b63d72.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Background/background-pixel-rain-abstract/3135763.jpg"
-dest_files=["res://.godot/imported/3135763.jpg-086fc1134ad550e86c38b6a005046dcd.ctex"]
+source_file="res://Game/background-pixel-rain-abstract/3135763.jpg"
+dest_files=["res://.godot/imported/3135763.jpg-d371f0f9d6a232002f09017325b63d72.ctex"]
 
 [params]
 
