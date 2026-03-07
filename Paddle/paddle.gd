@@ -1,12 +1,12 @@
-extends StaticBody2D
+extends CharacterBody2D
 
 @onready var paddle: CharacterBody2D = $"."
 
-# Called when the node enters the scene tree for the first time.
+## Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	pass
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	print("Active")
+	paddle.add_to_group("Paddle")
+#
+#
+## Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta: float) -> void:
+	#print("Active")

@@ -37,3 +37,4 @@ func _physics_process(delta: float) -> void:
 
 	# Clamp keeps paddle inside screen
 	paddle.position.x = clamp(paddle.position.x, 50, screen_width - 50)
+	
